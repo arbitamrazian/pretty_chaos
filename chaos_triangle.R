@@ -3,7 +3,7 @@ nmonte = 10000
 lookup.x = c(0,0.5,1)
 lookup.y = c(1,0,1)
 plot(lookup.x,lookup.y)
-curr_x = 0
+curr_x = 0.5
 curr_y = 0
 for (i in 1:nmonte ){
   points(curr_x,curr_y,pch=20)
